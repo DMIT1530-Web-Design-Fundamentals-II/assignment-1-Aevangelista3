@@ -81,18 +81,18 @@ header {
 
 .stats {
     display: flex;
-    justify-content: center; /* Center the content */
+    justify-content: center;
     padding: 40px;
     background-color: #f0f0f0;
 }
 
 .energy-stats, .by-numbers {
-    width: 45%; /* Adjust the width to bring them closer together */
+    width: 45%;
     background: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 0 10px; /* Add margin to create space between the two sections */
+    margin: 0 10px;
 }
 
 .energy-stats h2, .by-numbers h2 {
@@ -132,7 +132,7 @@ header {
 }
 
 .by-numbers {
-    width: 20%; /* Adjust the width to make it thinner */
+    width: 20%;
     background-color: floralwhite;
 }
 
