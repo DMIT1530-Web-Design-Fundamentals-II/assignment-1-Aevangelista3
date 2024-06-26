@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    color: #003f7d;
+}
+
+.top-nav {
+    background-color: #003f7d;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;;
+    justify-content:flex-end;
+}
+
+.top-nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #003f7d;
+}
+
+.main-nav h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #003f7d;
+}
+
+.main-nav nav {
+    margin-top: 10px;
+}
+
+.main-nav nav a {
+    color: #003f7d;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.banner-wind img {
+    width: 100%;
+    height: auto;
+}
+
+.button-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #e6f2ff;
+    padding: 20px 0;
+}
+
+.button-section button {
+    background-color: white;
+    color: #003f7d;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.button-section button:hover {
+    background-color: #004494;
+}
+
+.stats {
+    display: flex;
+    justify-content: center; /* Center the content */
+    padding: 40px;
+    background-color: #f0f0f0;
+}
+
+.energy-stats, .by-numbers {
+    width: 45%; /* Adjust the width to bring them closer together */
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 10px; /* Add margin to create space between the two sections */
+}
+
+.energy-stats h2, .by-numbers h2 {
+    color: #0056b3;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.energy-stats p{
+    text-align: center;
+}
+
+.energy-stats button, .by-numbers button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.energy-stats button:hover, .by-numbers button:hover {
+    background-color: #004494;
+}
+
+.chart img {
+    width: 100%;
+    height: auto;
+}
+
+.by-numbers ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.by-numbers {
+    width: 20%; /* Adjust the width to make it thinner */
+    background-color: floralwhite;
+}
+
+.by-numbers h2 {
+    color: black;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.by-numbers ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+
+footer {
+    background-color: #003f7d;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 10px 0;
+}
