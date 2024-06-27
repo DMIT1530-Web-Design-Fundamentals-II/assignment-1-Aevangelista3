@@ -24,6 +24,10 @@ header {
     font-size: 14px;
 }
 
+.top-nav a:hover {
+    color: #4CAF50;
+    text-decoration: underline;
+}
 .main-nav {
     display: flex;
     justify-content: space-between;
@@ -51,6 +55,11 @@ header {
     letter-spacing: 1px;
 }
 
+.main-nav nav a:hover {
+    color: #4CAF50;
+    text-decoration: underline;
+}
+
 .banner-wind img {
     width: 100%;
     height: auto;
@@ -76,7 +85,10 @@ header {
 }
 
 .button-section button:hover {
-    background-color: #004494;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 .stats {
@@ -118,7 +130,7 @@ header {
 }
 
 .energy-stats button:hover, .by-numbers button:hover {
-    background-color: #004494;
+    background-color: #b5d3f5;
 }
 
 .chart img {
@@ -167,10 +179,15 @@ footer p {
     margin: 10px 0;
 }
 
+footer nav a:hover {
+    color: #4CAF50;
+    text-decoration: underline;
+}
 .banner-your-home img {
     width: 100%;
     height: auto;
 }
+/*Your Home/////////////////////////////////////////////////////////////////*/
 
 .content-section {
     display: flex;
@@ -199,6 +216,10 @@ footer p {
     font-size: 16px;
     margin: 10px;
     text-align: left;
+}
+.content-item a:hover {
+    color: #4CAF50;
+    text-decoration: underline;
 }
 
 .information-section {
@@ -242,6 +263,9 @@ footer p {
     text-align: left;
 }
 
+.info-text a:hover {
+    color: #4CAF50;
+    text-decoration: underline;}
 .info-text a {
     color: #003f7d;
     text-decoration: none;
@@ -279,4 +303,65 @@ footer p {
 .help-section h2.fix-size {
     color: black;
     font-size: 30px;
+}
+
+/*Comumnity//////////////////////////////////////////////////////*/
+.banner-community img {
+    width: 100%;
+    height: auto;
+}
+
+.community-info {
+    text-align: center;
+    padding: 20px;
+}
+.community-info h1 {
+    color: black;
+    font-size: 22px;
+    text-align: justify;
+}
+.community-info h2 {
+    font-size: 30px;
+    color: black;
+}
+
+.community-info p {
+    font-size: 16px;
+    color: black;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.content-community-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.content-community-item {
+    flex: 1 1 calc(33.333% - 40px);
+    margin: 10px;
+    background-color: #003f7d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.content-community-item img {
+    width: 100%;
+    height: 400px;
+}
+
+.content-community-item a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px;
+    text-align: left;
+}
+
+.content-community-item a:hover {
+    color: #4CAF50;
+    text-decoration: underline;
 }
